@@ -15,5 +15,17 @@ namespace Seatiel_Aplicada1_P2
         {
             InitializeComponent();
         }
+
+        private void registroClienteToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Seatiel_Aplicada1_P2.UI.Registros.RegistroClientes rc = new UI.Registros.RegistroClientes();
+            rc.Show();
+        }
+
+        private void consultaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Seatiel_Aplicada1_P2.UI.Consultas.Consulta c = new UI.Consultas.Consulta();
+            c.Show();
+        }
     }
 }
